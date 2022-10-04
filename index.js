@@ -93,8 +93,8 @@ const unsubscribe = store.subscribe(() => {
 });
 //the dispatch method is used to send actions to the store throught the reducer.
 store.dispatch(buyCake());
-store.dispatch(sellCake());
 store.dispatch(buyTea());
+store.dispatch(sellCake());
 store.dispatch(sellTea());
 
 //call the unsubscribe method by capturing the retun of the subscribe method
